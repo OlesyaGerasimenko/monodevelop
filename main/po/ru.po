@@ -2,25 +2,27 @@
 # Copyright (C) 2006 Maxim Krentovskiy <mkrentovskiy@gmail.com>
 # Copyright (C) 2007,2010 Semen Soldatov <simplexe@mail.ru>
 # This file is distributed under the same license as the MonoDevelop package.
-# Maxim Krentovskiy <mkrentovskiy@gmail.com>, 2006
-# Semen Soldatov <simplexe@mail.ru>, 2007,2010
+# Maxim Krentovskiy <mkrentovskiy@gmail.com>, 2006.
+# Semen Soldatov <simplexe@mail.ru>, 2007,2010.
+# Olesya Gerasimenko <translation-team@basealt.ru>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: MonoDevelop 2.4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-20 11:44:29+0100\n"
-"PO-Revision-Date: 2010-12-26 12:47+0300\n"
-"Last-Translator: Semen Soldatov <simplexe@mail.ru>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"PO-Revision-Date: 2023-05-12 15:24+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileProjectServiceExtension.cs:98
 msgid "\tError loading Makefile for project {0}"
@@ -371,6 +373,7 @@ msgid "({0} update)"
 msgid_plural "({0} updates)"
 msgstr[0] "(Обновлений: {0})"
 msgstr[1] "(Обновлений: {0})"
+msgstr[2] "(Обновлений: {0})"
 
 #: ../src/addins/MonoDevelop.RegexToolkit/RegexElements.xml:94
 msgid "*"
@@ -2149,9 +2152,8 @@ msgstr "Добавить открытый"
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.cs:225
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.cs:977
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.UI.cs:472
-#, fuzzy
 msgid "Add Package"
-msgstr "Add Packages"
+msgstr "Добавить пакет"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/AddPackageSourceDialog.UI.cs:47
 msgid "Add Package Source"
@@ -2365,12 +2367,14 @@ msgid "Add the package to the project:"
 msgid_plural "Add the package to the projects:"
 msgstr[0] "Добавить пакет в проекты:"
 msgstr[1] "Добавить пакет в проекты:"
+msgstr[2] "Добавить пакет в проекты:"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/SelectProjectsDialog.cs:61
 msgid "Add the packages to the project:"
 msgid_plural "Add the packages to the projects:"
 msgstr[0] "Добавить пакеты в проекты:"
 msgstr[1] "Добавить пакеты в проекты:"
+msgstr[2] "Add the packages to the project:"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/PackagingFeatureWidget.cs:82
 msgid "Add the project to existing packages"
@@ -3032,11 +3036,11 @@ msgstr "ApplicationIconId"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:116
 msgid "ApplicationLongName"
-msgstr ""
+msgstr "ApplicationLongName"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:115
 msgid "ApplicationName"
-msgstr ""
+msgstr "ApplicationName"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment.Linux/MonoDevelop.Deployment.Linux/DesktopInfo.xml:21
 msgid "Applications like cvs or subversion"
@@ -5061,9 +5065,8 @@ msgid "Choose the reference assemblies for your NuGet package."
 msgstr "Выберите ссылочные сборки для пакета NuGet."
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:976
-#, fuzzy
 msgid "Class"
-msgstr "Классы"
+msgstr "Класс"
 
 #: ../src/addins/MonoDevelop.DotNetCore/Properties/MonoDevelop.DotNetCore.addin.xml:715
 #: ../src/addins/MonoDevelop.DotNetCore/Properties/MonoDevelop.DotNetCore.addin.xml:730
@@ -5693,14 +5696,12 @@ msgid "Compact Layout"
 msgstr "Компактный макет"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:133
-#, fuzzy
 msgid "Compared Revision"
-msgstr "_Копировать редакцию"
+msgstr "Сравниваемая редакция"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:93
-#, fuzzy
 msgid "Comparing Revision Editor"
-msgstr "_Копировать редакцию"
+msgstr "Редактор сравнения редакций"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/MonoExecutionParameters.cs:466
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/MonoExecutionParameters.cs:472
@@ -5949,18 +5950,21 @@ msgid "Consolidate Package"
 msgid_plural "Consolidate Packages"
 msgstr[0] "Консолидировать пакеты"
 msgstr[1] "Консолидировать пакеты"
+msgstr[2] "Консолидировать пакеты"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/SelectProjectsDialog.cs:86
 msgid "Consolidate the package in the project:"
 msgid_plural "Consolidate the package in the projects:"
 msgstr[0] "Консолидировать пакет в проектах:"
 msgstr[1] "Консолидировать пакет в проектах:"
+msgstr[2] "Консолидировать пакет в проектах:"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/SelectProjectsDialog.cs:91
 msgid "Consolidate the packages in the project:"
 msgid_plural "Consolidate the packages in the projects:"
 msgstr[0] "Консолидировать пакеты в проектах:"
 msgstr[1] "Консолидировать пакеты в проектах:"
+msgstr[2] "Консолидировать пакеты в проектах:"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.cs:880
 msgid "Consolidating {0} packages..."
@@ -7011,9 +7015,8 @@ msgid "Creating configure.ac"
 msgstr "Идет создание configure.ac"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:729
-#, fuzzy
 msgid "Creating project {0}"
-msgstr "Очистка проекта"
+msgstr "Идет создание проекта {0}"
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionDeployer.cs:122
 msgid "Creating rules.make"
@@ -7934,6 +7937,7 @@ msgid "Disable Breakpoint"
 msgid_plural "Disable Breakpoints"
 msgstr[0] "Отключить точки останова"
 msgstr[1] "Отключить точки останова"
+msgstr[2] "Отключить точки останова"
 
 #: ../src/addins/MonoDevelop.GtkCore/MonoDevelop.GtkCore/ReferenceManager.cs:230
 msgid "Disable Designer"
@@ -8608,6 +8612,7 @@ msgid "Enable Breakpoint"
 msgid_plural "Enable Breakpoints"
 msgstr[0] "Включить точки останова"
 msgstr[1] "Включить точки останова"
+msgstr[2] "Включить точки останова"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CodeAnalysisPanel.cs:92
 msgid "Enable Code Analysis on Build"
@@ -9986,9 +9991,8 @@ msgid "Fetching remote..."
 msgstr "Идет получение удаленных элементов..."
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:981
-#, fuzzy
 msgid "Field"
-msgstr "Поля"
+msgstr "Поле"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:72
 msgid "Field name"
@@ -10594,6 +10598,7 @@ msgid "Found and replaced one occurrence"
 msgid_plural "Found and replaced {0} occurrences"
 msgstr[0] "Найдено и заменено вхождений: {0}"
 msgstr[1] "Найдено и заменено вхождений: {0}"
+msgstr[2] "Найдено и заменено вхождений: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeSelectorDialog.cs:557
 msgid ""
@@ -10608,6 +10613,7 @@ msgid "Found {0} catalog entry."
 msgid_plural "Found {0} catalog entries."
 msgstr[0] "Найдено записей каталога: {0}."
 msgstr[1] "Найдено записей каталога: {0}."
+msgstr[2] "Найдено записей каталога: {0}."
 
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ImplicitFrameworkAssemblyReferenceDescriptor.cs:60
 msgid "Framework"
@@ -11444,7 +11450,7 @@ msgstr "Справка или документация"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:121
 msgid "HelpAboutIcon"
-msgstr ""
+msgstr "HelpAboutIcon"
 
 #: ../src/addins/AspNet/Razor/Razor-templates.xml:99
 msgid "Helper's arguments"
@@ -11568,9 +11574,8 @@ msgstr "Оттенок"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.NodeBuilders/PackageReferenceNodeDescriptor.cs:44
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.UI.cs:285
-#, fuzzy
 msgid "ID"
-msgstr "Идентификатор:"
+msgstr "Идентификатор"
 
 #: ../src/addins/MonoDevelop.Packaging/Gui/MonoDevelop.Packaging.Gui.GtkNuGetPackageMetadataOptionsPanelWidget.cs:190
 #: ../src/addins/MonoDevelop.Packaging/Gui/MonoDevelop.Packaging.Gui.GtkPackagingProjectTemplateWizardPageWidget.cs:188
@@ -12204,9 +12209,8 @@ msgstr ""
 "Комментарий завершается на первой закрывающей круглой скобке."
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ExceptionCaughtDialog.cs:530
-#, fuzzy
 msgid "Inner Exceptions"
-msgstr "Исключения:"
+msgstr "Внутренние исключения"
 
 #: ../src/addins/MonoDevelop.RegexToolkit/Gui/MonoDevelop.RegexToolkit.RegexToolkitWidget.cs:223
 msgid "Input:"
@@ -12913,18 +12917,21 @@ msgid "Last opened {0} day ago"
 msgid_plural "Last opened {0} days ago"
 msgstr[0] "Последнее открытие: {0} дн. назад"
 msgstr[1] "Последнее открытие: {0} дн. назад"
+msgstr[2] "Последнее открытие: {0} дн. назад"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:188
 msgid "Last opened {0} hour ago"
 msgid_plural "Last opened {0} hours ago"
 msgstr[0] "Последнее открытие: {0} ч назад"
 msgstr[1] "Последнее открытие: {0} ч назад"
+msgstr[2] "Последнее открытие: {0} ч назад"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:190
 msgid "Last opened {0} minute ago"
 msgid_plural "Last opened {0} minutes ago"
 msgstr[0] "Последнее открытие: {0} мин назад"
 msgstr[1] "Последнее открытие: {0} мин назад"
+msgstr[2] "Последнее открытие: {0} мин назад"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Project/CSharpLanguageVersionHelper.cs:51
 msgid "Latest"
@@ -13073,7 +13080,7 @@ msgstr "Список программ, в которых можно открыт
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:969
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:978
 msgid "Literal"
-msgstr ""
+msgstr "Литерал"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment.Linux/MonoDevelop.Deployment.Linux/DesktopInfo.xml:103
 msgid "Literature software"
@@ -13822,9 +13829,8 @@ msgid "Metadata"
 msgstr "Метаданные"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:977
-#, fuzzy
 msgid "Method"
-msgstr "Методы"
+msgstr "Метод"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/RoslynSearchCategory.DeclaredSymbolInfoResult.cs:60
 msgid "Method {0}. {1}"
@@ -15076,14 +15082,12 @@ msgid "O_pen Containing Folder"
 msgstr "О_ткрыть содержащую папку"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/Mac/MacDebuggerObjectNameView.cs:270
-#, fuzzy
 msgid "Object Name"
-msgstr "Имя проекта"
+msgstr "Имя объекта"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/Mac/MacDebuggerObjectValueView.cs:194
-#, fuzzy
 msgid "Object Value"
-msgstr "Объект для блокировки"
+msgstr "Значение объекта"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeTemplates/MonoDevelop-templates.xml:834
 #: ../src/addins/AspNet/Razor/Razor-templates.xml:472
@@ -15198,14 +15202,12 @@ msgid "Open NuGet.Config file..."
 msgstr "Открытие файла NuGet.Config..."
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/Mac/MacDebuggerObjectNameView.cs:95
-#, fuzzy
 msgid "Open Preview Visualizer"
-msgstr "Открыть коллекцию служб"
+msgstr "Открыть визуализатор предварительного просмотра"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:980
-#, fuzzy
 msgid "Open Resource Folder"
-msgstr "Открыть папку тем"
+msgstr "Открыть папку ресурсов"
 
 #: ../src/addins/MonoDevelop.ConnectedServices/Properties/MonoDevelop.ConnectedServices.addin.xml:45
 msgid "Open Service Details"
@@ -15224,9 +15226,8 @@ msgid "Open URL in web browser when app starts:"
 msgstr "Открыть URL-адрес в веб-браузере при запуске приложения:"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/Mac/MacDebuggerObjectValueView.cs:85
-#, fuzzy
 msgid "Open Value Visualizer"
-msgstr "Визуализатор значений"
+msgstr "Открыть визуализатор значений"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/FileSelectorDialog.cs:82
 #: ../src/addins/MacPlatform/Dialogs/MacOpenFileDialogHandler.cs:197
@@ -15396,14 +15397,12 @@ msgid "Original (msgid):"
 msgstr "Источник (msgid):"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:119
-#, fuzzy
 msgid "Original Revision"
-msgstr "Исходная строка"
+msgstr "Исходная редакция"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:96
-#, fuzzy
 msgid "Original Revision Editor"
-msgstr "Исходная строка"
+msgstr "Редактор исходной редакции"
 
 #: ../src/addins/MonoDevelop.Gettext/Gui/MonoDevelop.Gettext.POEditorWidget.cs:404
 msgid "Original plural (msgid_plural):"
@@ -15602,7 +15601,6 @@ msgid "Package Console"
 msgstr "Консоль пакета"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.NodeBuilders/PackageReferenceNodeDescriptor.cs:45
-#, fuzzy
 msgid "Package ID."
 msgstr "Идентификатор пакета."
 
@@ -15655,9 +15653,8 @@ msgid "Package retargeting required."
 msgstr "Требуется перенацелить пакет."
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.UI.cs:102
-#, fuzzy
 msgid "Package source"
-msgstr "Добавить источник пакета"
+msgstr "Источник пакета"
 
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:149
 msgid "Package that provides this reference."
@@ -15698,9 +15695,8 @@ msgstr ""
 "Целевые объекты и файлы свойств MSBuild были пропущены."
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.cs:642
-#, fuzzy
 msgid "Packages loaded"
-msgstr "Пакеты"
+msgstr "Пакеты загружены"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement/ProgressMonitorStatusMessageFactory.cs:160
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement/ProgressMonitorStatusMessageFactory.cs:170
@@ -16442,9 +16438,8 @@ msgid "Privacy Statement"
 msgstr "Заявление о конфиденциальности"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:988
-#, fuzzy
 msgid "Private"
-msgstr "Закрытый ключ:"
+msgstr "Закрытый"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/XwtCredentialsDialog.cs:300
 msgid "Private Key Files"
@@ -16502,7 +16497,7 @@ msgstr "Профиль на 5 секунд"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:119
 msgid "ProfileDirectoryName"
-msgstr ""
+msgstr "ProfileDirectoryName"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/MonoExecutionParameters.cs:325
 msgid "Profiler"
@@ -16801,9 +16796,8 @@ msgid "Proportional time scale"
 msgstr "Пропорциональная шкала времени"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:991
-#, fuzzy
 msgid "Protected"
-msgstr "Автоопределение"
+msgstr "Защищенный"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/Gui/MonoDevelop.VersionControl.UrlBasedRepositoryEditor.cs:116
 msgid "Protocol:"
@@ -17187,7 +17181,7 @@ msgstr "Достигнуто начало, продолжено с конца"
 #: ../src/addins/MonoDevelop.AspNetCore/Properties/MonoDevelop.AspNetCore.addin.xml:543
 #: ../src/addins/MonoDevelop.AspNetCore/Properties/MonoDevelop.AspNetCore.addin.xml:686
 msgid "React.js"
-msgstr ""
+msgstr "React.js"
 
 #: ../src/addins/MonoDevelop.AspNetCore/Properties/MonoDevelop.AspNetCore.addin.xml:244
 #: ../src/addins/MonoDevelop.AspNetCore/Properties/MonoDevelop.AspNetCore.addin.xml:413
@@ -17536,6 +17530,7 @@ msgid "Remove Breakpoint"
 msgid_plural "Remove Breakpoints"
 msgstr[0] "Удалить точки останова"
 msgstr[1] "Удалить точки останова"
+msgstr[2] "Удалить точки останова"
 
 #: ../src/addins/MonoDevelop.GtkCore/libstetic/editor/Translatable.cs:63
 msgid "Remove Comment for Translators"
@@ -17611,12 +17606,14 @@ msgid "Remove the package from the project:"
 msgid_plural "Remove the package from the projects:"
 msgstr[0] "Удалить пакет из проектов:"
 msgstr[1] "Удалить пакет из проектов:"
+msgstr[2] "Удалить пакет из проектов:"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/SelectProjectsDialog.cs:71
 msgid "Remove the packages from the project:"
 msgid_plural "Remove the packages from the projects:"
 msgstr[0] "Удалить пакеты из проектов:"
 msgstr[1] "Удалить пакеты из проектов:"
+msgstr[2] "Удалить пакеты из проектов:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/EnvironmentVariableCollectionEditor.cs:79
 msgid "Remove the selected environment variable"
@@ -18192,28 +18189,25 @@ msgid "Revert unsaved changes to document '{0}'?"
 msgstr "Отменить несохраненные изменения для документа \"{0}\"?"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/EditorCompareWidgetBase.MiddleArea.cs:485
-#, fuzzy
 msgid "Revert {0} inserted line starting at {1}"
 msgid_plural "Revert {0} inserted lines starting at {1}"
-msgstr[0] "Отменить вставку строк ({0}) начиная с {1}."
-msgstr[1] "Отменить вставку строк ({0}) начиная с {1}."
-msgstr[2] "Отменить вставку строк ({0}) начиная с {1}."
+msgstr[0] "Отменить вставку строк ({0}), начиная с {1}"
+msgstr[1] "Отменить вставку строк ({0}), начиная с {1}"
+msgstr[2] "Отменить вставку строк ({0}), начиная с {1}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/EditorCompareWidgetBase.MiddleArea.cs:487
-#, fuzzy
 msgid "Revert {0} removed line starting at {1}"
 msgid_plural "Revert {0} removed lines starting at {1}"
-msgstr[0] "Отменить удаление строк ({0}) начиная с {1}."
-msgstr[1] "Отменить удаление строк ({0}) начиная с {1}."
-msgstr[2] "Отменить удаление строк ({0}) начиная с {1}."
+msgstr[0] "Отменить удаление строк ({0}), начиная с {1}"
+msgstr[1] "Отменить удаление строк ({0}), начиная с {1}"
+msgstr[2] "Отменить удаление строк ({0}), начиная с {1}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/EditorCompareWidgetBase.MiddleArea.cs:489
-#, fuzzy
 msgid "Revert {0} replaced line starting at {1}"
 msgid_plural "Revert {0} replaced lines starting at {1}"
-msgstr[0] "Отменить замену строк ({0}) начиная с {1}"
-msgstr[1] "Отменить замену строк ({0}) начиная с {1}"
-msgstr[2] "Отменить замену строк ({0}) начиная с {1}"
+msgstr[0] "Отменить замену строк ({0}), начиная с {1}"
+msgstr[1] "Отменить замену строк ({0}), начиная с {1}"
+msgstr[2] "Отменить замену строк ({0}), начиная с {1}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:1362
 #: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:767
@@ -18559,6 +18553,7 @@ msgid "Runtime found"
 msgid_plural "Runtimes found"
 msgstr[0] "Обнаруженные среды выполнения"
 msgstr[1] "Обнаруженные среды выполнения"
+msgstr[2] "Обнаруженные среды выполнения"
 
 #: ../src/addins/MonoDevelop.DotNetCore/MonoDevelop.DotNetCore/DotNetCoreRuntimeSystemInformation.cs:69
 msgid "Runtime: {0}"
@@ -18601,6 +18596,7 @@ msgid "SDK found"
 msgid_plural "SDKs found"
 msgstr[0] "Обнаруженные пакеты SDK"
 msgstr[1] "Обнаруженные пакеты SDK"
+msgstr[2] "Обнаруженные пакеты SDK"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/SdkLocationPanel.cs:170
 msgid "SDK found at default location."
@@ -19118,13 +19114,13 @@ msgid "Select Directory"
 msgid_plural "Select Directories"
 msgstr[0] "Выбор каталогов"
 msgstr[1] "Выбор каталогов"
+msgstr[2] "Выбор каталогов"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:157
 #: ../external/xwt/Xwt.XamMac/Xwt.Mac/FileDialogBackend.cs:54
 #: ../external/xwt/Xwt.XamMac/Xwt.Mac/SaveFileDialogBackend.cs:45
-#, fuzzy
 msgid "Select File"
-msgstr "Seleziona file"
+msgstr "Выбор файла"
 
 #: ../src/core/MonoDevelop.Ide/Gui/MonoDevelop.Ide.Gui.Dialogs.SelectFileFormatDialog.cs:45
 msgid "Select File Format"
@@ -21205,9 +21201,8 @@ msgid "State"
 msgstr "Состояние"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/ObjectValue/ObjectValueTreeViewController.cs:971
-#, fuzzy
 msgid "Static"
-msgstr "Состояние"
+msgstr "Статический"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:191
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitDialog.cs:67
@@ -21227,7 +21222,7 @@ msgstr "Состояние текущей операции"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:120
 msgid "StatusAreaSteadyIcon"
-msgstr ""
+msgstr "StatusAreaSteadyIcon"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger.addin.xml:105
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger.addin.xml:106
@@ -21431,7 +21426,7 @@ msgstr "Перенос выполнен успешно"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:118
 msgid "SuiteName"
-msgstr ""
+msgstr "SuiteName"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeCompletion/ParameterInformationWindow.cs:254
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeCompletion/TooltipInformationWindow.cs:143
@@ -22575,6 +22570,8 @@ msgid_plural ""
 msgstr[0] ""
 "Для следующих пакетов необходимо принять условия лицензии перед установкой:"
 msgstr[1] ""
+"Для следующих пакетов необходимо принять условия лицензии перед установкой:"
+msgstr[2] ""
 "Для следующих пакетов необходимо принять условия лицензии перед установкой:"
 
 #: ../src/addins/MonoDevelop.ConnectedServices/ConnectedServices.cs:198
@@ -23904,17 +23901,21 @@ msgid_plural ""
 "This shortcut is assigned to other commands that are available\\nin the same "
 "context. Please set a different shortcut."
 msgstr[0] ""
-"Этот ярлык назначен другим командам, доступным\\nв том же контексте. "
-"Выберите другой ярлык."
+"Этот ярлык назначен другим командам, доступным\n"
+"в том же контексте. Выберите другой ярлык."
 msgstr[1] ""
-"Этот ярлык назначен другим командам, доступным\\nв том же контексте. "
-"Выберите другой ярлык."
+"Этот ярлык назначен другим командам, доступным\n"
+"в том же контексте. Выберите другой ярлык."
+msgstr[2] ""
+"Этот ярлык назначен другим командам, доступным\n"
+"в том же контексте. Выберите другой ярлык."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.ExternalTools/ExternalToolPanel.cs:242
 msgid "This shortcut is assigned to another command:"
 msgid_plural "This shortcut is assigned to other commands:"
 msgstr[0] "Это сочетание клавиш назначено другим командам:"
 msgstr[1] "Это сочетание клавиш назначено другим командам:"
+msgstr[2] "Это сочетание клавиш назначено другим командам:"
 
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger.addin.xml:38
 msgid "Threads"
@@ -24387,7 +24388,6 @@ msgstr "Не удается закрыть решение во время уда
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MD1/MD1DotNetProjectHandler.cs:293
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MD1/MD1DotNetProjectHandler.cs:296
-#, fuzzy
 msgid ""
 "Unable to compile ({0}) {1} to .resources. \n"
 "Reason: \n"
@@ -24395,7 +24395,7 @@ msgid ""
 msgstr ""
 "Не удается скомпилировать ({0}) {1} в файл RESOURCES. \n"
 "Причина: \n"
-"{2}\"n"
+"{2}\n"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement/DotNetCoreNuGetProject.cs:284
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement/PackageReferenceNuGetProject.cs:249
@@ -24441,7 +24441,6 @@ msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MD1/MD1DotNetProjectHandler.cs:389
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MD1/MD1DotNetProjectHandler.cs:392
-#, fuzzy
 msgid ""
 "Unable to generate satellite assemblies for '{0}' culture with {1}.\n"
 "Reason: \n"
@@ -24450,7 +24449,7 @@ msgstr ""
 "Не удается создать вспомогательные сборки для языка и региональных "
 "параметров \"{0}\" с помощью {1}.\n"
 "Причина: \n"
-"{2}\"n"
+"{2}\n"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/TemplatingService.cs:131
 msgid "Unable to load project templates."
@@ -24598,6 +24597,7 @@ msgid "Uninstall Package"
 msgid_plural "Uninstall Packages"
 msgstr[0] "Удалить пакеты"
 msgstr[1] "Удалить пакеты"
+msgstr[2] "Удалить пакеты"
 
 #: ../external/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/InstallDialog.cs:214
 msgid "Uninstalling Extension Packages"
@@ -24804,12 +24804,14 @@ msgid "Update the package in the project:"
 msgid_plural "Update the package in the projects:"
 msgstr[0] "Обновить пакет в проектах:"
 msgstr[1] "Обновить пакет в проектах:"
+msgstr[2] "Обновить пакет в проектах:"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/SelectProjectsDialog.cs:81
 msgid "Update the packages in the project:"
 msgid_plural "Update the packages in the projects:"
 msgstr[0] "Обновить пакеты в проектах:"
 msgstr[1] "Обновить пакеты в проектах:"
+msgstr[2] "Обновить пакеты в проектах:"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.NodeBuilders/PackageReferenceNode.cs:203
 #: ../src/addins/MonoDevelop.DotNetCore/MonoDevelop.DotNetCore.NodeBuilders/PackageDependencyNode.cs:212
@@ -24823,8 +24825,9 @@ msgstr "Обновить страницу приветствия из Интер
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:117
 msgid "Updated Web Reference {0}"
 msgid_plural "Updated Web References"
-msgstr[0] "Веб-ссылки обновлены"
-msgstr[1] "Веб-ссылки обновлены"
+msgstr[0] "Веб-ссылки обновлены ({0})"
+msgstr[1] "Веб-ссылки обновлены ({0})"
+msgstr[2] "Веб-ссылки обновлены ({0})"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:14
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Updater/AddinsUpdateHandler.cs:91
@@ -24885,6 +24888,7 @@ msgid "Updating web reference"
 msgid_plural "Updating web references"
 msgstr[0] "Идет обновление веб-ссылок"
 msgstr[1] "Идет обновление веб-ссылок"
+msgstr[2] "Идет обновление веб-ссылок"
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/TranslationProject.cs:307
 msgid "Updating {0}"
@@ -25429,9 +25433,8 @@ msgid "Visit Page"
 msgstr "Посетить страницу"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.Gui/ManagePackagesDialog.UI.cs:371
-#, fuzzy
 msgid "Visit Project Page"
-msgstr "Страница проекта"
+msgstr "Посетить страницу проекта"
 
 #: ../src/addins/VBNetBinding/VBNetBinding.addin.xml:54
 msgid "Visual Basic source code"
@@ -25885,9 +25888,8 @@ msgstr "Режим _переносов слов:"
 
 #: ../src/addins/MonoDevelop.AspNetCore/Properties/MonoDevelop.AspNetCore.addin.xml:139
 #: ../src/addins/MonoDevelop.AspNetCore/Properties/MonoDevelop.AspNetCore.addin.xml:308
-#, fuzzy
 msgid "Worker Service"
-msgstr "Веб-служба"
+msgstr "Служба рабочих ролей"
 
 #: ../src/addins/MonoDevelop.Debugger/Gui/MonoDevelop.Debugger.DebugApplicationDialog.cs:111
 msgid "Working Directory"
@@ -27910,6 +27912,7 @@ msgid "in {0} file."
 msgid_plural "in {0} files."
 msgstr[0] "в файлах ({0})."
 msgstr[1] "в файлах ({0})."
+msgstr[2] "в файлах ({0})."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/RoslynSearchCategory.DeclaredSymbolInfoResult.cs:203
 msgid "interface ({0})"
@@ -28142,7 +28145,6 @@ msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1121
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1194
-#, fuzzy
 msgid ""
 "{0} (expression)\n"
 "  statement1\n"
@@ -28151,7 +28153,8 @@ msgid ""
 msgstr ""
 "{0} (выражение)\n"
 "  оператор1\n"
-"  [{1}\"n  оператор2]"
+"  [{1}\n"
+"  оператор2]"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1403
 msgid ""
@@ -28269,6 +28272,9 @@ msgstr[0] ""
 msgstr[1] ""
 "Не найдено файлов журнала изменений: {0}. Некоторые изменения не будут "
 "зарегистрированы."
+msgstr[2] ""
+"Не найдено файлов журнала изменений: {0}. Некоторые изменения не будут "
+"зарегистрированы."
 
 #: ../src/addins/ChangeLogAddIn/CommitDialogExtensionWidget.cs:130
 msgid "{0} ChangeLog files will be updated."
@@ -28279,6 +28285,7 @@ msgid "{0} Error"
 msgid_plural "{0} Errors"
 msgstr[0] "Ошибок: {0}"
 msgstr[1] "Ошибок: {0}"
+msgstr[2] "Ошибок: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core.Execution/ProcessService.cs:209
 msgid "{0} External Console"
@@ -28289,6 +28296,7 @@ msgid "{0} Fuzzy Message"
 msgid_plural "{0} Fuzzy Messages"
 msgstr[0] "Нечетких сообщений: {0}"
 msgstr[1] "Нечетких сообщений: {0}"
+msgstr[2] "Нечетких сообщений: {0}"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1221
 msgid "{0} IMyInterface&lt; {1} T&gt; {}"
@@ -28312,12 +28320,14 @@ msgid "{0} Message"
 msgid_plural "{0} Messages"
 msgstr[0] "Сообщений: {0}"
 msgstr[1] "Сообщений: {0}"
+msgstr[2] "Сообщений: {0}"
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext.Editor/POEditorWidget.cs:575
 msgid "{0} Missing Message"
 msgid_plural "{0} Missing Messages"
 msgstr[0] "Пропущенных сообщений: {0}"
 msgstr[1] "Пропущенных сообщений: {0}"
+msgstr[2] "Пропущенных сообщений: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Docking/DockItemContainer.cs:83
 msgid "{0} Pad"
@@ -28336,6 +28346,7 @@ msgid "{0} Warning"
 msgid_plural "{0} Warnings"
 msgstr[0] "Предупреждений: {0}"
 msgstr[1] "Предупреждений: {0}"
+msgstr[2] "Предупреждений: {0}"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1361
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1412
@@ -28400,6 +28411,7 @@ msgid "{0} change"
 msgid_plural "{0} changes"
 msgstr[0] "Изменений: {0}"
 msgstr[1] "Изменений: {0}"
+msgstr[2] "Изменений: {0}"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1457
 msgid "{0} condition"
@@ -28437,6 +28449,7 @@ msgid "{0} day ago"
 msgid_plural "{0} days ago"
 msgstr[0] "{0} дн. назад"
 msgstr[1] "{0} дн. назад"
+msgstr[2] "{0} дн. назад"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1447
 msgid "{0} declaration"
@@ -28451,6 +28464,7 @@ msgid "{0} error"
 msgid_plural "{0} errors"
 msgstr[0] "ошибок: {0}"
 msgstr[1] "ошибок: {0}"
+msgstr[2] "ошибок: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.BuildOutputView/BuildOutputTreeCellView.cs:551
 msgid "{0} errors"
@@ -28479,6 +28493,9 @@ msgstr[0] ""
 "Всего обработано файлов: {0}. Успешно создано: {1}, с предупреждениями: {2}, "
 "с ошибками: {3}"
 msgstr[1] ""
+"Всего обработано файлов: {0}. Успешно создано: {1}, с предупреждениями: {2}, "
+"с ошибками: {3}"
+msgstr[2] ""
 "Всего обработано файлов: {0}. Успешно создано: {1}, с предупреждениями: {2}, "
 "с ошибками: {3}"
 
@@ -28542,12 +28559,14 @@ msgid "{0} line added"
 msgid_plural "{0} lines added"
 msgstr[0] "Добавлено строк: {0}"
 msgstr[1] "Добавлено строк: {0}"
+msgstr[2] "Добавлено строк: {0}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/DiffWidget.cs:62
 msgid "{0} line removed"
 msgid_plural "{0} lines removed"
 msgstr[0] "Удалено строк: {0}"
 msgstr[1] "Удалено строк: {0}"
+msgstr[2] "Удалено строк: {0}"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:824
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.QuickTasks/QuickTaskOverviewMode.cs:351
@@ -28555,18 +28574,21 @@ msgid "{0} match"
 msgid_plural "{0} matches"
 msgstr[0] "Совпадений: {0}"
 msgstr[1] "Совпадений: {0}"
+msgstr[2] "Совпадений: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:906
 msgid "{0} match found"
 msgid_plural "{0} matches found"
 msgstr[0] "Найдено соответствий: {0}"
 msgstr[1] "Найдено соответствий: {0}"
+msgstr[2] "Найдено соответствий: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchResultPad.cs:133
 msgid "{0} match."
 msgid_plural "{0} matches."
 msgstr[0] "Совпадений: {0}."
 msgstr[1] "Совпадений: {0}."
+msgstr[2] "Совпадений: {0}."
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1327
 msgid "{0} method-declaration"
@@ -28818,6 +28840,7 @@ msgid "{0} update available"
 msgid_plural "{0} updates available"
 msgstr[0] "Доступно обновлений: {0}"
 msgstr[1] "Доступно обновлений: {0}"
+msgstr[2] "Доступно обновлений: {0}"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement/ProgressMonitorStatusMessageFactory.cs:120
 msgid "{0} updated with warnings."
@@ -28832,6 +28855,7 @@ msgid "{0} warning"
 msgid_plural "{0} warnings"
 msgstr[0] "предупреждений: {0}"
 msgstr[1] "предупреждений: {0}"
+msgstr[2] "предупреждений: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.BuildOutputView/BuildOutputTreeCellView.cs:566
 msgid "{0} warnings"
@@ -28842,13 +28866,13 @@ msgid "{0} week ago"
 msgid_plural "{0} weeks ago"
 msgstr[0] "{0} нед. назад"
 msgstr[1] "{0} нед. назад"
+msgstr[2] "{0} нед. назад"
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionDeployer.cs:139
 msgid "{0} were successfully generated."
 msgstr "{0} успешно созданы."
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:1472
-#, fuzzy
 msgid ""
 "{0} {1}\n"
 "\n"
@@ -28856,7 +28880,8 @@ msgid ""
 "\n"
 "{0} {2} expression"
 msgstr ""
-"{0} {1}\"n\n"
+"{0} {1}\n"
+"\n"
 "или\n"
 "\n"
 "{0} {2} выражение"
